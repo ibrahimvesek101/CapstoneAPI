@@ -1,0 +1,24 @@
+{
+  "name": "Test ens mem type",
+  "short_name": "Test1",
+  "is_enabled": true,
+  "default_role_id": 1,
+  "app_id": 2,
+  "roles": [
+    {
+      "id": 17,
+      "name": "MANAGER",
+      "app_id": 0,
+      "description": "string",
+      "permissions": [
+        {
+          "id": 0,
+          "resource": "book",
+          "action": "read, write etc.",
+          "app_id": 2
+        }
+      ]
+    }
+  ]
+
+}

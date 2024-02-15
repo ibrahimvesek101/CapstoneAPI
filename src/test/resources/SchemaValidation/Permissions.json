@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "integer"
+      },
+      "resource": {
+        "type": "string"
+      },
+      "action": {
+        "type": "string"
+      },
+      "app_id": {
+        "type": "integer"
+      }
+    },
+    "required": ["id", "resource", "action", "app_id"]
+  }
+}
